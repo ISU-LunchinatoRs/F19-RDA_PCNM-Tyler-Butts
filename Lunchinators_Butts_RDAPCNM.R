@@ -159,6 +159,9 @@ plot(trans.dist, PCNM.axes[,2])
 
 # read in tables containing species, environmental variables, 
   # and geographic distances
+
+# set your working directory to wherever you saved these files! 
+
 endo.spp <- read.csv('endophytes.csv')  # column names represent OTUs
 endo.env <- read.csv('endophytes_env.csv') # Environmental data 
 endo.dist <- read.csv('endophytes_dist.csv') # Spatial Data 
