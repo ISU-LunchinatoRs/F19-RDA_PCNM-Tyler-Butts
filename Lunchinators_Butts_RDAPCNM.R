@@ -51,7 +51,7 @@ axis <- 42;
 image(1:10, 1:6, matrix(xy.pcnm$vectors[,axis], nrow=10))
 
 
-# Another example - using time-series instead of spatial pattern ####
+# Example - finding which pattern of spatial autocorrelation is significant ####
 library(vegan)
 # install.packages('adespatial') 
   # If not installed, uncomment line
